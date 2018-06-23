@@ -1,1 +1,11 @@
-WIP
+This is my first C project and my first GitHub repository.
+
+I am posting this for experience and feedback. The code is still a work in progress and needs to be documented. The target of this code is embedded with not much ram or memory to play with. 32K/256K. My intention was to keep the syntax purely C with no C++ conventions.
+
+The memory allocation is done at compile time so there is no use of any memory allocation. The user must declare the data storage and queue manipulation area. The data area can be an array of any size of a structure of any size.
+
+I have tried to keep the memcpy and memmove usage at a minimum and on the smallest block as possible.
+
+The hardest function to implement is the delete record function. So far I have calculated 19 possible scenerios when deleting a record.
+
+The search functions operate on a single member of the data structure and returns a pointer to the parent structure.
